@@ -17,6 +17,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <getopt.h>
 #include "bull_a.h"
 #include <time.h>
 #include <eph_manager.h>

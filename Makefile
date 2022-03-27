@@ -1,7 +1,7 @@
 DE ?= 440
 ASTRO_PATH = ~/.astro
 JPLEPH_LINK = $(ASTRO_PATH)/JPLEPH
-NOVAS_URL = https://aa.usno.navy.mil/software/novas/novas_c/novasc3.1.tar.gz
+NOVAS_URL = https://www.usno.navy.mil/USNO/astronomical-applications/software-products/novas/novas-c/novasc3.1.tar.gz
 NOVAS_TGZ := $(shell basename $(NOVAS_URL))
 CURLOPTS = --connect-timeout 20 --no-keepalive
 ifeq ($(DE),440)
