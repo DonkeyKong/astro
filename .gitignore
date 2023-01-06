@@ -1,5 +1,5 @@
 .Cdist.is_patched
-Cdist/
+novasc3.1/
 JPLEPH
 *.d
 *.o
@@ -10,3 +10,4 @@ novasc3.1.tar.gz
 planets/planets
 tropical/tropical
 .DS_Store
+novasc3.1.zip
